@@ -25,6 +25,7 @@ public class Runner {
 		Tomcat.addServlet(context, "default-servlet", new HttpServlet() {
 			@Override
 			protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
+				resp.getWriter().print("Server is running");
 				resp.setStatus(200);
 			}
 		});
