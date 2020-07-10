@@ -1,4 +1,4 @@
-package com.example.demo;
+package com.github.cheeghi.openshift.microprofile;
 
 import org.apache.catalina.Context;
 import org.apache.catalina.LifecycleException;
